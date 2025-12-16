@@ -42,22 +42,6 @@ h1:where(.wp-block-heading).has-background,h2:where(.wp-block-heading).has-backg
 .is-small-text{font-size:.875em}.is-regular-text{font-size:1em}.is-large-text{font-size:2.25em}.is-larger-text{font-size:3em}.has-drop-cap:not(:focus):first-letter{float:left;font-size:8.4em;font-style:normal;font-weight:100;line-height:.68;margin:.05em .1em 0 0;text-transform:uppercase}body.rtl .has-drop-cap:not(:focus):first-letter{float:none;margin-left:.1em}p.has-drop-cap.has-background{overflow:hidden}:root :where(p.has-background){padding:1.25em 2.375em}:where(p.has-text-color:not(.has-link-color)) a{color:inherit}p.has-text-align-left[style*="writing-mode:vertical-lr"],p.has-text-align-right[style*="writing-mode:vertical-rl"]{rotate:180deg}
 /*# sourceURL=http://localhost:8080/wp-includes/blocks/paragraph/style.min.css */
 </style>
-<style id='wp-block-accordion-heading-inline-css'>
-.wp-block-accordion-heading{margin:0}.wp-block-accordion-heading__toggle{align-items:center;background-color:inherit!important;border:none;color:inherit!important;cursor:pointer;display:flex;font-family:inherit;font-size:inherit;font-style:inherit;font-weight:inherit;letter-spacing:inherit;line-height:inherit;overflow:hidden;padding:var(--wp--preset--spacing--20,1em) 0;text-align:inherit;text-decoration:inherit;text-transform:inherit;width:100%;word-spacing:inherit}.wp-block-accordion-heading__toggle:not(:focus-visible){outline:none}.wp-block-accordion-heading__toggle:focus,.wp-block-accordion-heading__toggle:hover{background-color:inherit!important;border:none;box-shadow:none;color:inherit;padding:var(--wp--preset--spacing--20,1em) 0;text-decoration:none}.wp-block-accordion-heading__toggle:focus-visible{outline:auto;outline-offset:0}.wp-block-accordion-heading__toggle:hover .wp-block-accordion-heading__toggle-title{text-decoration:underline}.wp-block-accordion-heading__toggle-title{flex:1}.wp-block-accordion-heading__toggle-icon{align-items:center;display:flex;height:1.2em;justify-content:center;width:1.2em}
-/*# sourceURL=http://localhost:8080/wp-includes/blocks/accordion-heading/style.min.css */
-</style>
-<style id='wp-block-accordion-panel-inline-css'>
-.wp-block-accordion-panel[aria-hidden=true],.wp-block-accordion-panel[inert]{display:none;margin-block-start:0}
-/*# sourceURL=http://localhost:8080/wp-includes/blocks/accordion-panel/style.min.css */
-</style>
-<style id='wp-block-accordion-item-inline-css'>
-.wp-block-accordion-item.is-open>.wp-block-accordion-heading .wp-block-accordion-heading__toggle-icon{transform:rotate(45deg)}@media (prefers-reduced-motion:no-preference){.wp-block-accordion-item{transition:grid-template-rows .3s ease-out}.wp-block-accordion-item>.wp-block-accordion-heading .wp-block-accordion-heading__toggle-icon{transition:transform .2s ease-in-out}}
-/*# sourceURL=http://localhost:8080/wp-includes/blocks/accordion-item/style.min.css */
-</style>
-<style id='wp-block-accordion-inline-css'>
-.wp-block-accordion{box-sizing:border-box}
-/*# sourceURL=http://localhost:8080/wp-includes/blocks/accordion/style.min.css */
-</style>
 <style id='wp-block-post-content-inline-css'>
 .wp-block-post-content{display:flow-root}
 /*# sourceURL=http://localhost:8080/wp-includes/blocks/post-content/style.min.css */
@@ -238,20 +222,6 @@ a{text-decoration-thickness:1px!important;text-underline-offset:.1em}:where(.wp-
 
 
 
-<div data-wp-context="{ &quot;autoclose&quot;: false, &quot;accordionItems&quot;: [] }" data-wp-interactive="core/accordion" role="group" class="wp-block-accordion is-layout-flow wp-block-accordion-is-layout-flow">
-<div data-wp-class--is-open="state.isOpen" data-wp-context="{ &quot;id&quot;: &quot;accordion-item-2&quot;, &quot;openByDefault&quot;: false }" data-wp-init="callbacks.initAccordionItems" data-wp-on-window--hashchange="callbacks.hashChange" class="wp-block-accordion-item is-layout-flow wp-block-accordion-item-is-layout-flow">
-<h3 class="wp-block-accordion-heading"><button aria-expanded="false" aria-controls="accordion-item-2-panel" data-wp-bind--aria-expanded="state.isOpen" data-wp-on--click="actions.toggle" data-wp-on--keydown="actions.handleKeyDown" id="accordion-item-2" class="wp-block-accordion-heading__toggle"><span class="wp-block-accordion-heading__toggle-title"></span><span class="wp-block-accordion-heading__toggle-icon" aria-hidden="true">+</span></button></h3>
-
-
-
-<div inert aria-labelledby="accordion-item-2" data-wp-bind--inert="!state.isOpen" id="accordion-item-2-panel" role="region" class="wp-block-accordion-panel is-layout-flow wp-block-accordion-panel-is-layout-flow">
-<p></p>
-</div>
-</div>
-</div>
-
-
-
 <h3 class="wp-block-heading bottom-border">Example of a Maintenance Opportunity</h3>
 
 
@@ -309,10 +279,6 @@ a{text-decoration-thickness:1px!important;text-underline-offset:.1em}:where(.wp-
 {"prefetch":[{"source":"document","where":{"and":[{"href_matches":"/*"},{"not":{"href_matches":["/wp-*.php","/wp-admin/*","/wp-content/uploads/*","/wp-content/*","/wp-content/plugins/*","/wp-content/themes/twentytwentyfive/*","/*\\?(.+)"]}},{"not":{"selector_matches":"a[rel~=\"nofollow\"]"}},{"not":{"selector_matches":".no-prefetch, .no-prefetch a"}}]},"eagerness":"conservative"}]}
 </script>
 <script type="module" src="wp-includes/js/dist/script-modules/block-library/navigation/view.min.js%3Fver=b0f909c3ec791c383210" id="@wordpress/block-library/navigation/view-js-module" fetchpriority="low" data-wp-router-options="{&quot;loadOnClientNavigation&quot;:true}"></script>
-<script type="module" src="wp-includes/js/dist/script-modules/block-library/accordion/view.min.js%3Fver=ea83272e31d6958353ff" id="@wordpress/block-library/accordion/view-js-module" fetchpriority="low" data-wp-router-options="{&quot;loadOnClientNavigation&quot;:true}"></script>
-<script type="application/json" id="wp-script-module-data-@wordpress/interactivity">
-{"state":{"core/accordion":{"isOpen":{}}},"derivedStateClosures":{"core/accordion":["state.isOpen"]}}
-</script>
 <script id="wp-block-template-skip-link-js-after">
 	( function() {
 		var skipLinkTarget = document.querySelector( 'main' ),
